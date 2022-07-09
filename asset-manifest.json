@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.d0fab5ff.css",
+    "main.js": "/react-deploy/static/js/main.29187b46.js",
+    "static/media/cart.png": "/react-deploy/static/media/cart.be74b340f185cfc16436.png",
+    "index.html": "/react-deploy/index.html",
+    "main.d0fab5ff.css.map": "/react-deploy/static/css/main.d0fab5ff.css.map",
+    "main.29187b46.js.map": "/react-deploy/static/js/main.29187b46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0fab5ff.css",
+    "static/js/main.29187b46.js"
+  ]
+}
