@@ -1,38 +1,350 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    text-decoration: none !important;
+    color: black;
+}
+a:hover{
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.FormControl {
+    max-width: 380px;
+    padding: 25px 35px 40px;
+    margin: 7% auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.signupLink {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 19%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputstyle,
+input {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 16px;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+.signup {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding: 6%;
+    position: relative;
+    top: 14px;
+    left: 14%;
+}
+
+.accountAlready,
+.loginn {
+    font-size: 16px;
+    position: relative;
+    left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cartimg {
+    position: absolute;
+    top: 14%;
+    left: 48%;
+    max-width: 5%;
+}
+
+.subbtn {
+    color: #fff;
+    background-color: black;
+    width: 20em;
+    height: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subbtn:hover {
+    cursor: pointer;
+
+}
+
+.container {
+    display: flex;
+}
+
+.cardimg {
+    margin-left: 90px;
+    margin-right: 70px;
+    display: flex;
+    position: relative;
+    width: 220px;
+    height: 400px;
+    top: 100px;
+    left: 105px;
+    cursor: pointer;
+}
+
+.cartimgHome {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    max-width: 5%;
+    cursor: pointer;
+}
+
+.NavBarHome {
+    background-color: #f7f7f7;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    list-style: none;
+    
+}
+
+.ulHome {
+    list-style-type: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 400px;
+    margin: auto;
+    
+}
+
+.ulHome li{
+    display:inline;
+    text-align:center;
+    padding:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ulHome li:hover{
+    cursor: pointer;
+    border-bottom: solid 1px rgb(114, 3, 179);
+}
+
+
+
+.navbutton{
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    background: none;
+    margin-top: 6px;
+}
+
+.LastestHome{
+    position: absolute;
+    left: 1.3em;
+    top: 17em;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.jeweleryLastest{
+    display: flex;
+}
+
+.JeweleryCardimg{
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    height: 200px;
+    top: 400px;
+    cursor: pointer;
+}
+
+
+.Jewelerytitle{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    left: 57px;
+    top: 27rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Jeweleryprice{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 10px;
+    height: 200px;
+    left: 13rem;
+    top: 20rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Jeweleryprice:hover{
+    color: blue;
+}
+
+.bottombox{
+    background-color: black;
+    top: 1050px;
+    position: relative;
+    color: white;
+    display: grid;
+    flex-direction: row;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    list-style: none;
+}
+
+.bottomboxUL{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.bottombox li{
+    display:inline;
+    text-align:center;
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.bottombox li:hover{
+    color: rgb(217, 139, 233);
+}
+
+.Popular{
+    background-color: rgb(0, 0, 0);
+    color: #f7f7f7;
+    position: absolute;
+    left: 10.1em;
+    top: 28em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.cara{
+    position: absolute;
+    width: 25%;
+    top: 92em;
+    left: 35em;
+    cursor: pointer;
+}
+
+
+.carousel-item img {
+  max-width: 500px !important;
+  max-height: 300px !important;
+  padding: 30px;
+}
+
+.card{
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
+    margin: 70px;
+}
+
+.card-body{
+    max-width: 20rem !important;
+    display: inline-grid;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.card-title{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img-top{
+    height: 20em;
+}
+
+.card-bodyjew{
+    max-width: 20rem !important;
+    display: inline-grid;
+    margin: 40px;
+    cursor: pointer;
+}
+.card-img-topjew{
+    height: 10em;
+}
+
+.card-bodyele{
+    max-width: 20rem !important;
+    display: inline-grid;
+    margin: 40px;
+    cursor: pointer;
+}
+.card-img-topele{
+    height: 10em;
+}
+
+.card-img-toppp{
+    height: 28em;
+    position: relative;
+    left: 24em;
+}
+
+.cardDescriptioN{
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    border-color: black;
+    border-radius: 20px;
+    position: relative;
+    bottom: 28em;
+    left: 60rem;
+    text-align: left;
+    height: 490px;
+    width: 400px;
+}
+
+.titleDetails{
+    text-transform:uppercase ;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.mainDetails{
+    text-transform:uppercase ;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    color: rgb(87, 53, 240);
+}
+
+.priceDetails{
+    text-transform:uppercase ;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+}
+
+.detailsDetails{
+    text-transform:uppercase ;
+    font-family: sans-serif;
+    font-size: 70%;
+}
+
+.card-img-toppp{
+    position: relative;
+    top: 55px;
 }
